@@ -1,4 +1,6 @@
-.work-wrapper {
+#work {
+  background-color: black;
+}.work-wrapper {
   width: 80vw;
   margin-top: 10vh;
   display: flex;
@@ -7,7 +9,7 @@
   h1 {
     font-size: 3.5rem;
     text-align: left;
-    color: darkgoldenrod;
+    color: rgb(255, 255, 255);
     @include media(">=phone", "<lgphone") {
       font-size: 14px;
     }

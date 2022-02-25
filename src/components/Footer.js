@@ -2,19 +2,28 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 
+import gmailIcon from "../images/gmail.png"
+import outlookIcon from "../images/outlook.png"
+import phoneIcon from "../images/phone.png"
+
 const Footer = () => {
   return (
     <div className="section" id="contact">
       <div className="container">
         <div className="footer-container">
           <Fade bottom cascade>
-            <h1>Contact</h1>
-            <h2>{data.contactSubHeading}</h2>
+            <h2>Contact</h2>
           </Fade>
+          <div className="social-icons">            
           <a className="email-link" href={`mailto:${data.contactEmail}`}>
-            {data.contactEmail}
-          </a>
-          <div className="social-icons">
+          <img src={gmailIcon} alt="icons"></img>
+            </a>
+            <a className="email-link" href={`mailto:${data.contactEmailoffice}`}>
+            <img src={outlookIcon} alt="icons"></img>
+            </a>
+            <a className="telephone" href={`tel:${data.contactNumber}`}>
+            <img src={phoneIcon} alt="icons"></img>
+            </a>
             {data.social.map((socialLink, index) => (
               <a
                 key={index}

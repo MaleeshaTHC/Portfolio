@@ -19,12 +19,6 @@ import pythonIcon from "./images/python.png"
 import appIcon from "./images/react.png"
 import hcjIcon from "./images/hcj.png"
 
-//import certificate icons
-import edxIcon from "./images/edx.png"
-import codecampIcon from "./images/codecamp.jpg"
-import nvqIcon from "./images/nvq.png"
-
-
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
@@ -46,6 +40,7 @@ export default {
   //Contacts
   contactNumber : "          +9470 514 9750",
   contactEmail: "     thcmaleesha@gmail.com",
+  contactEmailoffice: "     96755@fhss.sjp.ac.lk",
   address : "     No.170/D/1/B, Viharahena, Deniyaya, Matara, Sri Lanka",
 
   // End Header Details -----------------------
@@ -55,7 +50,7 @@ export default {
     {
       title: "Python Project", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "School Management System. Developed by using Python + Access", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         pythonIcon,
@@ -65,7 +60,7 @@ export default {
     {
       title: "Java Project", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Customer Management System. Developed by using Java + MySQL", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         javaIcon,
@@ -75,7 +70,7 @@ export default {
     {
       title: "React-Native Project", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Nursery Education Application. Developed by using ReactNative + Firebase + CSS", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         appIcon,
@@ -85,7 +80,7 @@ export default {
     {
       title: "Web Development Project", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Nursery Website. Developed by using HTML + CSS +JavaScript", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         hcjIcon,
@@ -159,33 +154,12 @@ export default {
   //   Promotion Section --------------------------
 
   promotionHeading: "Experience",
-  promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  promotionPara1:
+    "Information Communication Technology Technician (ICTT) - (2019 Jul- 2020 Feb)",
+  promotionPara2:
+    "Kotapola Pradeshiya Sabhawa, Deniyaya",
   // End Promotion Section -----------------
 
-  //Certification section------------------------
-  certify: [
-    {
-      title: "Edex Certification", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        edxIcon,
-      //Project URL - Add Your Project Url Here
-      url: "https://courses.edx.org/certificates/a0559fb92c8a4ad1b89ab3a9015bd991",
-    },
-    {
-      title: "NVQ certification", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        nvqIcon,
-      //Project URL - Add Your Project Url Here
-      url: "https://drive.google.com/file/d/1OgtW52nQrg0hWulM2ds2lVP3EqPI0qYP/view",
-    },],
-  //end certification section
 
   //   Contact Section --------------
 

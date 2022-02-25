@@ -2,11 +2,6 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 
-//contacts icons
-import emailIcon from "../images/email.png"
-import teleIcon from "../images/telephone.png"
-import locationIcon from "../images/location.png"
-
 const About = () => {
   return (
     <div className="section" id="about">
@@ -39,7 +34,6 @@ const About = () => {
                   {data.contactNumber}
             </div>
             <div className="content">
-              <img id="img4" src={emailIcon} alt="icons"></img>
             </div>
         </div>
         <div className="header-wrapper">

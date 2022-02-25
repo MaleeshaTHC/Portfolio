@@ -1,16 +1,15 @@
-#about {
-  margin-bottom: 7%;  
+#about { 
+  background-color: darkgoldenrod; 
 }
 .header-wrapper {
   width: 90vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between;  
+  margin-top: 5%;
 
   .content {
     width: 65%;
-    margin-top: 5%;
-    margin-right: 3%;
-    margin-left: 2%;
+    margin-bottom: 5%;
     @include media(">=phone", "<lgphone") {
       width: 100%;
     }
@@ -23,7 +22,7 @@
     h1 {
       font-size: 3.5rem;
       text-align: justify;
-      color: darkgoldenrod;
+      color: rgb(0, 0, 0);
       @include media(">=phone", "<lgphone") {
         font-size: 14px;
       }
@@ -38,7 +37,7 @@
     h2 {
       font-size: 2rem;
       text-align: justify;
-      color: darkgoldenrod;
+      color: rgb(0, 0, 0);
       @include media(">=phone", "<lgphone") {
         font-size: 14px;
       }
@@ -51,9 +50,9 @@
     }
   }
   p {
-    width: 140%;
+    width: 120%;
     text-align: justify;
-    color: rgb(0, 0, 0);
+    color: rgb(8, 8, 8);
     overflow: hidden;
     @include media(">=phone", "<lgphone") {
       font-size: 12px;
