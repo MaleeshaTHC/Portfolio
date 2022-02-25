@@ -4,10 +4,9 @@
 .about-section {
   width: 80vw;
   height: 44vw;
-  margin-top: 10vh;
+  margin-top: 5vh;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(224, 175, 15);
   @include media(">=phone", "<lgphone") {
     flex-direction: column-reverse;
   }
@@ -20,8 +19,9 @@
   }
   .content {
     width: 55%;
-    margin-top: 7%;
-    margin-right: 5%;
+    margin-top: 10%;
+    margin-right: 3%;
+    margin-left: 2%;
     @include media(">=phone", "<lgphone") {
       width: 100%;
     }
@@ -34,6 +34,7 @@
     h2 {
       font-size: 2rem;
       line-height: 20px;
+      color: darkgoldenrod;
       @include media(">=tablet", "<desktop") {
         text-align: left;
       }
@@ -50,6 +51,7 @@
       text-align: justify;
       line-height: 18px;
       text-align: center;
+      color: aliceblue;
       @include media(">=phone", "<lgphone") {
         font-size: 1.5rem;
         line-height: 10px;
@@ -69,7 +71,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    margin-left: 1%;
+    margin-left: 3%;
     @include media(">=phone", "<lgphone") {
       width: 100%;
     }
@@ -81,7 +83,7 @@
     }
 
     img {
-      border-radius: 8%;
+      width: 100%;
     }
   }
 
@@ -89,6 +91,7 @@
     width: 100%;
     text-align: left;
     overflow: hidden;
+    color: aliceblue;
     @include media(">=phone", "<lgphone") {
       font-size: 12px;
       width: 100%;

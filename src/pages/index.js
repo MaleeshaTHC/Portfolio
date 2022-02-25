@@ -14,9 +14,9 @@ const IndexPage = () => (
   <Layout>
     <SEO title="maleeshathc" />
     <Header></Header>
-    <About></About>
-    <Work></Work>    
+    <About></About>  
     <Skills></Skills>
+    <Work></Work>        
     <Promotion></Promotion>
     <Footer></Footer>
   </Layout>

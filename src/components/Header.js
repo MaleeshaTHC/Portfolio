@@ -42,25 +42,6 @@ const Header = () => {
               <br></br><br></br>
               <p>{data.headerParagraph}</p>
             </Fade>
-            <br></br>
-            <br></br>
-            <br></br>
-            <Fade bottom>
-              <a 
-                href={`mailto:${
-                  data.contactEmail ? data.contactEmail : "thcmaleesha@gmail.com"
-                }`}
-                className="primary-btn"
-              >
-                contact via email
-              </a>
-              <a 
-                href={"tel:+1-303-499-7111"}
-                className="primary-btn"
-              >
-                contact via phone
-              </a>
-            </Fade>
           </div>
         </div>
       </div>
