@@ -8,9 +8,7 @@ import codeIcon from "./images/code.svg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
-import instagramIcon from "./images/instagram.svg"
+import linkedinIcon from "./images/linkedin.png"
 
 //profile picture
 import profilePic from './images/CM.png'
@@ -22,15 +20,15 @@ export default {
   name: "Maleesha",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "Building UI/UX",
     //Line 2 For Header
-    "products, brands,",
+    "designs, graphics,",
     //Line 3 For Header
-    "and experience",
+    "and mobile applications",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "Dedicated and hardworking with internal drive to deliver.",
 
   //Contact Email
   contactEmail: "thcmaleesha@gmail.com",
@@ -175,18 +173,10 @@ export default {
   contactSubHeading: "Let's create your next experience together",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
+    { img: githubIcon, url: "https://github.com/MaleeshaTHC" },
     {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
-    },
-    {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
-    },
-    {
-      img: instagramIcon,
-      url: "https://www.instagram.com/",
+      img: linkedinIcon,
+      url: "https://www.linkedin.com/in/chathumini-maleesha-39a016215/",
     },
   ],
 

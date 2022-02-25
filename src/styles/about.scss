@@ -1,92 +1,31 @@
 #about {
   background-color: black;
 }
-.about-section {
+.header-wrapper {
   width: 80vw;
-  height: 40vw;
-  margin-top: 5vh;
+  margin-top: 10vh;
   display: flex;
-  justify-content: space-between;
-  background-color: rgb(224, 175, 15);
-  @include media(">=phone", "<lgphone") {
-    flex-direction: column-reverse;
-  }
-  @include media(">=lgphone", "<tablet") {
-    flex-direction: column-reverse;
-  }
-  @include media(">=tablet", "<desktop") {
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-  .content {
-    width: 55%;
-    margin-top: 4%;
-    margin-right: 5%;
-    @include media(">=phone", "<lgphone") {
-      width: 100%;
-    }
-    @include media(">=lgphone", "<tablet") {
-      width: 100%;
-    }
-    @include media(">=tablet", "<desktop") {
-      width: 100%;
-    }
-    h2 {
-      font-size: 2rem;
-      line-height: 20px;
-      @include media(">=tablet", "<desktop") {
-        text-align: left;
-      }
-    }
-    p {
-      @include media(">=tablet", "<desktop") {
-        text-align: justify;
-      }
-    }
-  }
-  .heading-wrapper {
-    h1 {
-      font-size: 3.5rem;
-      text-align: center;
-      line-height: 20px;
-      @include media(">=phone", "<lgphone") {
-        font-size: 1.5rem;
-        line-height: 10px;
-      }
-      @include media(">=lgphone", "<tablet") {
-        font-size: 1.5rem;
-        line-height: 10px;
-      }
-      @include media(">=tablet", "<desktop") {
-        font-size: 2.5rem;
-      }
-    }
-  }
-  .image-wrapper {
-    width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    margin-left: 1%;
-    @include media(">=phone", "<lgphone") {
-      width: 100%;
-    }
-    @include media(">=lgphone", "<tablet") {
-      width: 100%;
-    }
-    @include media(">=tablet", "<desktop") {
-      width: 100%;
-    }
+  flex-direction: column;
 
-    img {
-      border-radius: 8%;
+  h1 {
+    font-size: 3.5rem;
+    text-align: left;
+    color: darkgoldenrod;
+    @include media(">=phone", "<lgphone") {
+      font-size: 14px;
+    }
+    @include media(">=lgphone", "<tablet") {
+      font-size: 16px;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 16px;
     }
   }
 
   p {
     width: 100%;
     text-align: justify;
+    color: rgb(255, 254, 253);
     overflow: hidden;
     @include media(">=phone", "<lgphone") {
       font-size: 12px;
