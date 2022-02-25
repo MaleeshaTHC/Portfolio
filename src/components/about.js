@@ -2,6 +2,8 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 
+import profile from "../images/CM2.png"
+
 const About = () => {
   return (
     <div className="section" id="about">
@@ -9,6 +11,9 @@ const About = () => {
         <div className="header-wrapper">
             <div className="content">
               <Fade bottom cascade>
+                <br></br><br></br>
+                <br></br><br></br>
+                <br></br><br></br>
                   <h1>About Me</h1>
               </Fade>
                 <p>
@@ -21,7 +26,7 @@ const About = () => {
                   <br></br>
                   {data.aboutParaThree}
                 </p>   
-                <br></br><br></br>         
+                <br></br>         
               <Fade bottom cascade>
                   <h3>Contact Details</h3>
               </Fade>                  
@@ -34,6 +39,7 @@ const About = () => {
                   {data.contactNumber}
             </div>
             <div className="content">
+              <img id="img1" src={profile} alt="profile"></img>
             </div>
         </div>
         <div className="header-wrapper">

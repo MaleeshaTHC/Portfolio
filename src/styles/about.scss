@@ -1,11 +1,10 @@
 #about { 
-  background-color: darkgoldenrod; 
+  background-color: #f7be07; 
 }
 .header-wrapper {
   width: 90vw;
   display: flex;
   justify-content: space-between;  
-  margin-top: 5%;
 
   .content {
     width: 65%;
@@ -69,20 +68,8 @@
   }
 
   #img1 {
-    width: 6%;
-  }
-
-  #img2 {
-    width: 6%;
-  }
-
-  #img3 {
-    width: 6%;
-  }
-
-  #img4 {
-    width: 60%;
-    margin-left: 40%;
-    margin-top: 10%;
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 20%;
   }
 }

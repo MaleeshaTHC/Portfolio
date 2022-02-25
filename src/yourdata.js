@@ -18,6 +18,8 @@ import javaIcon from "./images/java.png"
 import pythonIcon from "./images/python.png"
 import appIcon from "./images/react.png"
 import hcjIcon from "./images/hcj.png"
+import pyLogoIcon from "./images/python logo.png"
+import JavaLogoIcon from "./images/java logo.png"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -120,32 +122,42 @@ export default {
     {
       img: htmlIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "The standard markup language for documents designed to be displayed in a web browser.",
     },
     {
       img: cssIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "A style sheet language used for describing the presentation of a document written in a markup language such as HTML.",
+    },
+    {
+      img: pyLogoIcon,
+      para:
+        "A powerful general-purpose programming language. It is used in web development, data science, creating software prototypes, and so on.",
+    },
+    {
+      img: JavaLogoIcon,
+      para:
+        "A high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.",
     },
     {
       img: jsIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "A programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.",
     },
     {
       img: reactIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "A free and open-source front-end JavaScript library for building user interfaces based on UI components.",
     },
     {
       img: designIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "The profession and academic discipline whose activity consists in projecting visual communications intended to transmit specific messages to social groups, with specific objectives.",
     },
     {
       img: codeIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "The process of transforming ideas, solutions, and instructions into the language that the computer can understand.",
     },
   ],
 

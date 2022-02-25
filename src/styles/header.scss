@@ -3,7 +3,7 @@
 }
 .about-section {
   width: 80vw;
-  height: 44vw;
+  height: 48vw;
   margin-top: 5vh;
   display: flex;
   justify-content: space-between;
@@ -34,7 +34,7 @@
     h2 {
       font-size: 2rem;
       line-height: 20px;
-      color: darkgoldenrod;
+      color: #f7be07;
       @include media(">=tablet", "<desktop") {
         text-align: left;
       }
@@ -51,7 +51,7 @@
       text-align: justify;
       line-height: 18px;
       text-align: center;
-      color: aliceblue;
+      color: rgb(255, 255, 255);
       @include media(">=phone", "<lgphone") {
         font-size: 1.5rem;
         line-height: 10px;
@@ -91,7 +91,7 @@
     width: 100%;
     text-align: left;
     overflow: hidden;
-    color: aliceblue;
+    color: rgb(253, 253, 253);
     @include media(">=phone", "<lgphone") {
       font-size: 12px;
       width: 100%;
